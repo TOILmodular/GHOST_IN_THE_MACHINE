@@ -28,7 +28,7 @@ At the moment, I will only give two hints:
 - The knobs located around the module outputs on both the left and right side are only  influencing the corresponding outputs.
 - The lowest knob at the front panel center is controlling the level of both outputs.
 
-## The Switches
+### The Switches
 There are 7 switches spread accross the front panel, which are influencing the routing of the internal CV and audio signal flows.
 Depending on the knob settings, changing a switch can have no, subtle or big influence on the audio outputs.
 Just like the knobs, the switches invite to experimenting.
