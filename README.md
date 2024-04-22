@@ -4,7 +4,7 @@ It is meant to be a kind of black box for creating numerous different sounds wit
 All the knobs and switches are not labelled on purpose in order to encourage the user to experiment.
 
 The module is built of several different sections with certain different signal flows (audio and CV), which can be influenced by these knobs and switches.
-There are a number of optional inputs, which are actually labelled (although not in a traditional way), so the module can be fed and influenced by other modules.
+There are a number of optional inputs (labelled, but not in a traditional way), so the module can be influenced by other modules.
 It has two separate outputs, so you can achieve some stereo effect or use each output separately.
 
 You will find some basic information about the inputs, knobs, switches and the mysterious central push button below, sufficient to have fun with the module.
@@ -19,16 +19,21 @@ This YouTube video shows the module in action:
 As I stated in the intro above, you will only find some basic information about the module in this section in order to (hopefully) enjoy it.
 More details are given in the folder "User Manual", if you want to know them.
 
-### 17 Knobs
+### The Knobs
 There are 17 knobs available at the front panel.
 Turning each knob has a specific influence on the output.
 Explaining the function of each knob is not really helpful, which will only be understandable, as soon as the central push button and the CHAOS input will be explained further below.
 At the moment, I will only give two hints:
 
-- The knobs located in the outer regions on both the left and right side are only  influencing the corresponding outputs.
+- The knobs located around the module outputs on both the left and right side are only  influencing the corresponding outputs.
 - The lowest knob at the front panel center is controlling the level of both outputs.
 
-### OUTPUT
+## The Switches
+There are 7 switches spread accross the front panel, which are influencing the routing of the internal CV and audio signal flows.
+Depending on the knob settings, changing a switch can have no, subtle or big influence on the audio outputs.
+Just like the knobs, the switches invite to experimenting.
+
+### The Outputs
 The audio signals presented at the two outputs are processed the same way, with the exception of those outer knobs mentioned above.
 Processing the outputs via a stereo output mixer can provide a stereo effect for the module sound.
 On the other hand, the signals can of course also further be processed separately by other modules.
