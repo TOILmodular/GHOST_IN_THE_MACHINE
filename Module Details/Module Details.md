@@ -17,10 +17,10 @@ The following graph shows the signal flow chart for audio and CV between the dif
 <img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/ab3ed9ac-1f92-44cd-8025-82404f6bc720">
 
 In a nutshell, one of the VCOs' signal is sent to the VCF, while the other one is influencing the cutoff frequency.
-Setting the two VCOs' pitched in a certain way can even lead to vowel sounds, like when using a formant filter.
+Pitching the two VCOs in a certain way can even lead to vowel sounds, like when using a formant filter.
 The signal is then sent via two separate delay units to the outputs.
 
-There are a number of modulation optionsvia the LFOs, which combine their triangle signals, a sample & hold unit fed by a noise unit or optionally by an external source, and the other optional external inputs, explained in the module introduction README file.
+There are a number of modulation options via the LFOs, which combine their triangle signals, a sample & hold unit fed by a noise unit or optionally by an external source, and the other optional external inputs, explained in the module introduction README file.
 
 ## Fixed and Variable Knobs
 One central aspect of the module to be more experimental and less controllable is the function of knob assignment shuffling.
