@@ -8,7 +8,7 @@ There are a number of optional inputs (labelled, but not in a traditional way), 
 It has two separate outputs, so you can achieve some stereo effect or use each output separately.
 
 You will find some basic information about the inputs, knobs, switches and the mysterious central push button below, sufficient to have fun with the module.
-However, if you are interested in the details of the module below the skin, about the signal flow and more information of the given controls, you can find a more detailed user manual in the related folder.
+However, if you are interested in the details of the module below the skin, about the signal flow and more information of the given controls, you can find a more in the folder "Module Details".
 I divided that part on purpose, in case you might not want to know too much, so the surprise in discovering new sounds is not taken away.
 
 This YouTube video shows the module in action:
@@ -16,9 +16,6 @@ This YouTube video shows the module in action:
 <img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/f641cf4a-e125-4994-ba60-6b1bafa4b1dc">
 
 ## How the Module works (Basics)
-As I stated in the intro above, you will only find some basic information about the module in this section in order to (hopefully) enjoy it.
-More details are given in the folder "User Manual", if you want to know them.
-
 ### The Knobs
 There are 17 knobs available at the front panel.
 Turning each knob has a specific influence on the output.
