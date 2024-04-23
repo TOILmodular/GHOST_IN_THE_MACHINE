@@ -5,7 +5,7 @@ This document is a more in-depth description of the setup, functions and control
 The module consists of a number of different sections for creating and modulating audio signals.
 
 - 2 VCOs, based on the AS3340 VCO chip (CEM3340 clone)
-- A state variable low-pass VCF
+- A state variable lowpass VCF
 - A noise generator
 - A sample&hold unit
 - 2 LFOs
