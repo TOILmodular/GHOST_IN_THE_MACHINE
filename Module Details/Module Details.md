@@ -37,25 +37,25 @@ Even that restriction already led to the need of eight multiplexer IC (CD4052), 
 I guess, there is a more clever way to achieve that.
 Anyway, this is what I could come up with.
 
-The functions in group 1 (red knobs in the graph above) are
-- An attenuator for the noise or external RANDOM source fed into the sample & hold section
-- The frequency control for the VCO going into the VCF cutoff frequency control
-- The frequency rate of one of the two LFOs
-- The feedback control of one of the two delay units
+The functions in group 1 are
+- (1) An attenuator for the noise or external RANDOM source fed into the sample & hold section 
+- (2) The frequency control for the VCO going into the VCF cutoff frequency control
+- (3) The frequency rate of one of the two LFOs
+- (4) The feedback control of one of the two delay units
 
-The functions in group 2 (yellow knobs in the graph above) are
-- An attenuator for the combined triangle signal of both LFOs
-- The frequency control for the VCO going into the VCF input
-- The frequency rate of the second LFO
-- The feedback control of the second delay unit
+The functions in group 2 are
+- (5) An attenuator for the combined triangle signal of both LFOs
+- (6) The frequency control for the VCO going into the VCF input
+- (7) The frequency rate of the second LFO
+- (8) The feedback control of the second delay unit
 
-The fixed knobs (black knobs in the graph above) are
-- The VCF cutoff frequency control
-- The VCF resonance control
-- The glide controls for two identicat separate CV outputs from the sample & hold unit
-- The delay times for both delay units
-- The wet/dry mix controls for both delay units
-- An attenuator for the VCF output signal before the delay units, which can be used as one volume control for both outputs
+The fixed knobs are
+- (9) The VCF cutoff frequency control
+- (10) The VCF resonance control
+- (11, 12) The glide controls for two identicat separate CV outputs from the sample & hold unit
+- (13, 14) The delay times for both delay units
+- (15, 16) The wet/dry mix controls for both delay units
+- (17) An attenuator for the VCF output signal before the delay units, which can be used as one volume control for both outputs
 
 ## Knob Assignment Shuffle Logic
 As mentioned above, the shuffle logic core are eight CD4052 multiplexer ICs.
@@ -64,9 +64,12 @@ Each of the two groups with knobs to be shuffled make use of four of these ICs.
 The logic how the shuffling works with the CD4052 chips might be a bit difficult to follow by just looking at the schematics.
 In a nutshell, with each change, the potentiometer connections for all knobs in one group are swapped in a way, that connections for one potentiometer always stay together during the change.
 The group size of four knobs each is chosen, because this limits the need of ICs.
-An extension e.g. to all knobs in one group would significantly increase the number of needed multiplexers, let alone the attempt to add all 17 knobs on the front panel.
+An extension e.g. to all eight knobs combined in one group would significantly increase the number of needed multiplexers, let alone the attempt to add all 17 knobs on the front panel.
 
-The randomness of knobs assigned to functions is actually quite limited.
+Therefore, the randomness of knobs assigned to functions is actually quite limited.
 But I hope it is still enough to cause some fun or even confusion.
 
 ## Switch Functions
+The seven switches on the front panel are all fixed, i.e. there is no shuffling for them.
+The graph below shows the function of each switch.
+
