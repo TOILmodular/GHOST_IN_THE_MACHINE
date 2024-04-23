@@ -57,19 +57,35 @@ The fixed knobs are
 - (15, 16) The wet/dry mix controls for both delay units
 - (17) An attenuator for the VCF output signal before the delay units, which can be used as one volume control for both outputs
 
+XXXXXXXXX graph tbd XXXXXXXXXXX
+
 ## Knob Assignment Shuffle Logic
 As mentioned above, the shuffle logic core are eight CD4052 multiplexer ICs.
 Each of the two groups with knobs to be shuffled make use of four of these ICs.
 
 The logic how the shuffling works with the CD4052 chips might be a bit difficult to follow by just looking at the schematics.
 In a nutshell, with each change, the potentiometer connections for all knobs in one group are swapped in a way, that connections for one potentiometer always stay together during the change.
+
 The group size of four knobs each is chosen, because this limits the need of ICs.
 An extension e.g. to all eight knobs combined in one group would significantly increase the number of needed multiplexers, let alone the attempt to add all 17 knobs on the front panel.
-
 Therefore, the randomness of knobs assigned to functions is actually quite limited.
 But I hope it is still enough to cause some fun or even confusion.
 
+The decision about how to shuffle the knob assignments, i.e. the way the multiplexers are determining connections, is done via two control bits in each IC.
+Those control bits are provided by a CD4094 shift register,.
+The data to be moved into the shift register is derived from the internal noise source sent to a comparator op amp.
+In order to ensure the simultaneous shuffling of all knobs in one group, all multiplexers for that group receive the same control bits.
+
 ## Switch Functions
 The seven switches on the front panel are all fixed, i.e. there is no shuffling for them.
-The graph below shows the function of each switch.
 
+The switch functions are
+- (A) Waveform selection (sawtooth or square) in the VCO, which is sending the signal into the VCF input
+- (B) Sending the CV from the S&H unit to the frequency control of the VCO, which is connected to the VCF input (on or off)
+- (C) Switching between the S&H output and the combined CV from both internal LFOs to be sent to the VCF cutoff frequency control
+- (D) Soft sync switch from the VCO, which is connected to the VCF input, to the other VCO (on or off)
+- (E) Sending combined CV from both internal LFOs to the frequency control of the VCO, which is connected to the VCF cutoff frequency control (on or off)
+- (F) Sending CV from the S&H unit to the frequency control of the VCO, which is connected to the VCF cutoff frequency control (on or off)
+- (G) Waveform selection (triangle or square) in the VCO, which is sending the signal into the VCF cutoff frequency control
+
+XXXXXXXXX graph tbd XXXXXXXXXXX
