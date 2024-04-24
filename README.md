@@ -22,7 +22,7 @@ Turning each knob has a specific influence on the output.
 Explaining the function of each knob is not really helpful, which will only be understandable, as soon as the central push button and the CHAOS input will be explained further below.
 At the moment, I will only give two hints:
 
-- The knobs located around the module outputs on both the left and right side are only  influencing the corresponding outputs.
+- The knobs located around the module outputs on both the left and right side are realted to internal delay units and only influencing the corresponding outputs.
 - The lowest knob at the front panel center is controlling the level of both outputs.
 
 ### The Switches
@@ -31,7 +31,7 @@ Depending on the knob settings, changing a switch can have no, subtle or big inf
 Just like the knobs, the switches invite to experimenting.
 
 ### The Outputs
-The audio signals presented at the two outputs are processed the same way, with the exception of those outer knobs mentioned above.
+The audio signals presented at the two outputs are processed the same way, with the exception of those delay related knobs mentioned above.
 Processing the outputs via a stereo output mixer can provide a stereo effect for the module sound.
 On the other hand, the signals can of course also further be processed separately by other modules.
 
