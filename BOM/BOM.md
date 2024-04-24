@@ -54,7 +54,7 @@
 | VCO IC | AS3340 | 2 | |
 | Multiplexer | CD4052 | 8 | |
 | Shift Register | CD4094 | 1 | |
-| Voltage Regulator | 79L05 | 2 | SMD (SOT-89-3) |
+| Voltage Regulator | 79L05 | 1 | SMD (SOT-89-3) |
 | Potentiometer | B100K | 15 | |
 | Potentiometer | B10K | 2 | |
 | Mono Jack | 3.5mm | 9 | |
