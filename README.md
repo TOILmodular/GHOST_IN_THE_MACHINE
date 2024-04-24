@@ -41,7 +41,7 @@ The two FEED inputs provide the option to use external audio sources, instead of
 But the signal flow and processing for each of those inputs is not the same.
 
 #### TACT
-The TACT input provides the option to add an internal clock signal to the module.
+The TACT input provides the option to add an external clock signal to the module.
 The usage of that clock signal might be recognizable more or less, depending on the setting of some of the controls.
 If no cable is plugged in, the module is using an internal clock signal source.
 
@@ -65,7 +65,7 @@ That trigger can also be provided by an external high signal (>1V) into the CHAO
 
 It should be mentioned, that not all knobs are shuffled in that way.
 Some knobs keep their function and are not influenced by the shuffling.
-However, I decided to keep all of them unlabelled, maybe for design aesthetics reasons.
+However, I decided to keep all of them unlabelled, mainly for design aesthetics reasons.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "Original", and a "Thonk" version. Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
