@@ -8,7 +8,7 @@ There are a number of optional inputs (labelled, but not in a traditional way), 
 It has two separate outputs, so you can achieve some stereo effect or use each output separately.
 
 You will find some basic information about the inputs, knobs, switches and the mysterious central push button below, sufficient to have fun with the module.
-However, if you are interested in the details of the module below the skin, about the signal flow and more information of the given controls, you can find a more in the folder "Module Details".
+However, if you are interested in the details of the module below the skin, about the signal flow and more information of the given controls, you can find more in the folder "Module Details".
 I divided that part on purpose, in case you might not want to know too much, so the surprise in discovering new sounds is not taken away.
 
 This YouTube video shows the module in action:
