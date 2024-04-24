@@ -68,5 +68,30 @@ Some knobs keep their function and are not influenced by the shuffling.
 However, I decided to keep all of them unlabelled, maybe for design aesthetics reasons.
 
 ## Module Build and PCBs
+I added two different versions for the control board in the folder GerberFiles, an "Original", and a "Thonk" version. Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
+
+<img width="500" alt="CtrlPCB_Orig" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/1a8eb5f8-ef41-4a7d-83ed-d276df13eec9">
+
+However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created another control board PCB for the "Thonk" version with footprints for those components.
+
+<img width="500" alt="CtrlPCB_Thonk" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/11e89a37-6327-445a-8af4-69d1aa8cbfa4">
+
+The main PCB is the same for both versions.
+
+<img width="500" alt="MainPCB" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/b58380e9-6774-411c-816d-efc6c38ffd27">
+
+I created the Gerber files with the online tool EasyEDA and ordered the PCBs at JLCPCB.
+
+## Panel Layout
+I added the information about hole coordinates for the front panel in the folder "Panel Layout", referring to the component layout in the PCB Gerber files.
+
+In addition, there is another Gerber file for the panel, following the HP standard.
+My own modules do not follow that width standard, as I am only using sliding nuts in my racks.
+
+You can use the panel Gerber file to have the panel built out of PCB material.
 
 ## Additional Information about specific Components
+The module build is mainly THT, including all ICs.
+However, there are a number SMD capacitors with the package size 1608 (imperial 0603), several transistors (package SOT-23-3) and a voltage regulator (package SOT-89-3).
+
+Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine. Resistors with values greater than 1M are not of that small size.
