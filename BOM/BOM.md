@@ -49,6 +49,7 @@
 | Diode | 1N4148 | 5 | |
 | Transistor | MMBT3904 | 3 | SMD (SOT-23-3) |
 | Transistor | MMBT3906 | 2 | SMD (SOT-23-3) |
+| Transistor | J112 | 1 | N-channel JFET (alternatives: J113, 2N5457) |
 | Op Amp | TL074 | 9 | |
 | OTA | LM13700 | 2 | |
 | Delay IC | PT2399 | 2 | |
