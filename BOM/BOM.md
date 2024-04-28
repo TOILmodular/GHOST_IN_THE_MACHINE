@@ -36,10 +36,11 @@
 | Capacitor Electrolytic | 47uF | 3 | |
 | Capacitor Electrolytic | 10uF | 5 | |
 | Capacitor Electrolytic | 1uF | 1 | |
-| Capacitor Ceramic | 1uF | 3 | |
+| Capacitor Ceramic | 1uF | 4 | |
+| Capacitor Ceramic | 0.47uF | 1 | |
 | Capacitor Ceramic | 0.1uF | 68 | SMD (1608) |
 | Capacitor Film | 0.1uF | 1 | |
-| Capacitor Ceramic | 0.01uF | 7 | |
+| Capacitor Ceramic | 0.01uF | 5 | |
 | Capacitor Ceramic | 1000pF | 7 | |
 | Capacitor Ceramic | 220pF | 2 | |
 | Capacitor Ceramic | 100pF | 1 | |
