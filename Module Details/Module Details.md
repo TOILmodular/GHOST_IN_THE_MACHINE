@@ -17,11 +17,13 @@ The following graph shows the signal flow chart for audio and CV between the dif
 
 <img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/0515990d-03ca-42e9-991c-b9981078ca56">
 
-In a nutshell, the signal of one of the VCOs is sent to the VCF, while the other one is influencing the cutoff frequency.
+The signal of one of the VCOs is sent to the VCF, while the other one is influencing the cutoff frequency.
 Pitching the two VCOs in a certain way can even lead to vowel sounds, like when using a formant filter.
 The signal is then sent via 2 separate delay units to the outputs.
 
-There are a number of modulation options via the LFOs, which combine their triangle signals, a sample & hold unit fed by a noise unit or optionally by an external source, and the other optional external inputs, explained in the module introduction README file.
+There are a number of modulation options via the LFOs, which combine their triangle signals, a S&H unit fed by a noise unit or optionally by an external source, and the other optional external inputs, explained in the module introduction README file.
+
+XXXXXXXXX graph tbd XXXXXXXXXXX
 
 ## Fixed and Variable Knobs
 One central aspect of the module to be more experimental and less controllable is the function of knob assignment shuffling.
@@ -34,12 +36,12 @@ As can be seen in the flow chart, not all of the 17 knobs are being shuffled aro
 Infact, there are only 8 such knobs.
 
 Those knobs are separated into 2 groups, each with 4 knobs.
-Even that restriction already led to the need of 8 multiplexer IC (CD4052), as described in the next section.
+Even that restriction already led to the need of 8 multiplexer ICs (CD4052), as described in the next section.
 I guess, there is a more clever way to achieve that.
 Anyway, this is what I could come up with.
 
 The functions in group 1 are
-- (1) An attenuator for the noise or external RANDOM source fed into the sample & hold section 
+- (1) An attenuator for the noise or external RANDOM source fed into the S&H section 
 - (2) The frequency control for the VCO going into the VCF cutoff frequency control
 - (3) The frequency rate of one of the 2 LFOs
 - (4) The feedback control of one of the 2 delay units
@@ -53,19 +55,17 @@ The functions in group 2 are
 The fixed knobs are
 - (9) The VCF cutoff frequency control
 - (10) The VCF resonance control
-- (11, 12) The glide controls for 2 identicat separate CV outputs from the sample & hold unit
+- (11, 12) The glide controls for 2 identical separate CV outputs from the S&H unit
 - (13, 14) The delay times for both delay units
 - (15, 16) The wet/dry mix controls for both delay units
-- (17) An attenuator for the VCF output signal before the delay units, which can be used as one volume control for both outputs
-
-XXXXXXXXX graph tbd XXXXXXXXXXX
+- (17) An attenuator for the VCF output signal before the delay units, which can be used as a kind of one volume control for both outputs. However, this will not necessarily always reduce the volume to zero, as it is located before the delay units, so that existing echoes and feedback signals might continue.
 
 ## Knob Assignment Shuffle Logic
-As mentioned above, the shuffle logic core are 8 CD4052 multiplexer ICs.
+As mentioned above, the shuffle logic core consists of 8 CD4052 multiplexer ICs.
 Each of the 2 groups with knobs to be shuffled make use of 4 of these ICs.
 
 The logic how the shuffling works with the CD4052 chips might be a bit difficult to follow by just looking at the schematics.
-In a nutshell, with each change, the potentiometer connections for all knobs in one group are swapped in a way, that connections for one potentiometer always stay together during the change.
+In a nutshell, with each change, the potentiometer connections for all knobs in one group are swapped (turned on at one connection point and off at others) in a way, that connections for one potentiometer always stay together during the change.
 
 The group size of 4 knobs each is chosen, because this limits the need of ICs.
 An extension e.g. to all 8 knobs combined in one group would significantly increase the number of needed multiplexers, let alone the attempt to add all 17 knobs on the front panel.
@@ -74,7 +74,7 @@ But I hope it is still enough to cause some fun or even confusion.
 
 The decision about how to shuffle the knob assignments, i.e. the way the multiplexers are determining connections, is done via 2 control bits in each IC.
 Those control bits are provided by a CD4094 shift register.
-The data to be moved into the shift register is derived from the internal noise source sent to a comparator op amp.
+The data to be moved into the shift register is derived from the internal noise source sent via a comparator op amp, deciding for a high or low bit.
 In order to ensure the simultaneous shuffling of all knobs in one group, all multiplexers for that group receive the same control bits.
 
 Triggering a shuffle event is done either via the central push button, or with a high signal (>1V) sent into the CHAOS input.
@@ -93,5 +93,3 @@ The switch functions are
 - (E) Sending combined CV from both internal LFOs to the frequency control of the VCO, which is connected to the VCF cutoff frequency control (on or off)
 - (F) Sending CV from the S&H unit to the frequency control of the VCO, which is connected to the VCF cutoff frequency control (on or off)
 - (G) Waveform selection (triangle or square) in the VCO, which is sending the signal into the VCF cutoff frequency control
-
-XXXXXXXXX graph tbd XXXXXXXXXXX
