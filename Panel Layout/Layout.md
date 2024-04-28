@@ -4,7 +4,7 @@ The panel dimensions provided in the section "Original Design" below are based o
 An alternative by building an HP-standard size panel can be found in the section "HP Standard Design" further below.
 
 ### Original Design
-Coordinates given in the table fit to the layout of components given in the PCBc in folder GerberFiles.
+Coordinates given in the table fit to the layout of components given in the PCBc in folder "GerberFiles".
 The layout is the same for both versions.
 
 Panel size: 200mm x 128.5mm
@@ -55,7 +55,7 @@ Coordinates origin is the lower left corner of the panel.
 ### HP Standard Design
 For building the panel with a size following the HP standard, you can use the panel Gerber files provided in the folder "GerberFiles".
 
-I ordered my own panel via such gerber file built out of PCB material.
+I ordered my own panel via such Gerber file built out of PCB material.
 
 Here are a few parameters of the panel.
 | Parameter | Value |
