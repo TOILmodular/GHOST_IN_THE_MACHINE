@@ -1,5 +1,5 @@
 # GHOST IN THE MACHINE
-The GHOST IN THE MACHINE is a noise/sound generating Eurorack module with many controls, but not much control.
+GHOST IN THE MACHINE is a noise/sound generating Eurorack module providing many controls, but not much control.
 It is meant to be a kind of black box for creating numerous different sounds with no specific information about how to create them.
 All the knobs and switches are not labelled on purpose in order to encourage the user to experiment.
 
@@ -22,7 +22,7 @@ Turning each knob has a specific influence on the output.
 Explaining the function of each knob is not really helpful, which will only be understandable, as soon as the central push button and the CHAOS input will be explained further below.
 At the moment, I will only give two hints:
 
-- The knobs located around the module outputs on both the left and right side are realted to internal delay units and only influencing the corresponding outputs.
+- The knobs located around the module outputs on both the left and right side are related to internal delay units and only influencing the corresponding outputs.
 - The lowest knob at the front panel center is controlling the level of both outputs.
 
 ### The Switches
@@ -31,19 +31,19 @@ Depending on the knob settings, changing a switch can have no, subtle or big inf
 Just like the knobs, the switches invite to experimenting.
 
 ### The Outputs
-The audio signals presented at the two outputs are processed the same way, with the exception of those delay related knobs mentioned above.
+The audio signals presented at the 2 outputs are processed the same way, with the exception of those delay related knobs mentioned above, influencing each output separately.
 Processing the outputs via a stereo output mixer can provide a stereo effect for the module sound.
 On the other hand, the signals can of course also further be processed separately by other modules.
 
 ### The Inputs
 #### FEED (left and right)
-The two FEED inputs provide the option to use external audio sources, instead of the internal ones.
+The 2 FEED inputs provide the option to use external audio sources, instead of the internal ones.
 But the signal flow and processing for each of those inputs is not the same.
 
 #### TACT
 The TACT input provides the option to add an external clock signal to the module.
 The usage of that clock signal might be recognizable more or less, depending on the setting of some of the controls.
-If no cable is plugged in, the module is using an internal clock signal source.
+If no cable is plugged in, the module is using an internal clock signal source, which can also vay, depending on the control settings.
 
 #### RANDOM
 The module is using an internal random CV source in different signal flows.
@@ -59,13 +59,13 @@ However, it cannot be guaranteed that the result is as desired.
 The SWEEP input can be used for an external CV signal to influence the cutoff of the internal filter section of the module.
 
 ### The central Push Button and the CHAOS Input
-The actual reason that no knob is labelled is an internal shuffle function, which allows a change of the assignment of several knobs to different control functions.
+The actual reason why no knob is labelled is an internal shuffle function, which allows a change of the assignment of several knobs to different control functions.
 Each new assignment is done in a random way, and the trigger of shuffling the knob functions is the central button.
 That trigger can also be provided by an external high signal (>1V) into the CHAOS input.
 
 It should be mentioned, that not all knobs are shuffled in that way.
 Some knobs keep their function and are not influenced by the shuffling.
-However, I decided to keep all of them unlabelled, mainly for design aesthetics reasons.
+However, I decided to keep all of them unlabelled.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "Original", and a "Thonk" version. Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
@@ -94,4 +94,4 @@ You can use the panel Gerber file to have the panel built out of PCB material.
 The module build is mainly THT, including all ICs.
 However, there are a number SMD capacitors with the package size 1608 (imperial 0603), several transistors (package SOT-23-3) and a voltage regulator (package SOT-89-3).
 
-Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine. Resistors with values greater than 1M are not of that small size.
+Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine. Footprints for a few resistors with values larger than 1M have the standard size.
