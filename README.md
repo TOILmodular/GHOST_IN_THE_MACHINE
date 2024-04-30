@@ -4,8 +4,8 @@ It is meant to be a kind of black box for creating numerous different sounds wit
 All the knobs and switches are not labelled on purpose in order to encourage the user to experiment.
 
 <img height="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/3267466e-8458-4e35-b397-e47aecb191f6">
-<img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/69268a0a-fc85-415c-8a68-d5b05628b578">
-<img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/c5759ef7-6633-4786-beb4-f305428482b0">
+<img height="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/69268a0a-fc85-415c-8a68-d5b05628b578">
+<img height="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/c5759ef7-6633-4786-beb4-f305428482b0">
 
 The module is built of several different sections with certain different signal flows (audio and CV), which can be influenced by these knobs and switches.
 There are a number of optional inputs (labelled, but not in a traditional way), so the module can be influenced by other modules.
