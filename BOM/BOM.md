@@ -3,7 +3,7 @@
 | Description | Value | Quantity | |
 | --- | --- | --- | --- |
 | Resistor 1/4W | 100R | 3 | |
-| Resistor 1/4W | 470R | 2 | |
+| Resistor 1/4W | 470R | 3| |
 | Resistor 1/4W | 680R | 1 | |
 | Resistor 1/4W | 1K | 17 | |
 | Resistor 1/4W | 1.8K | 2 | |
@@ -31,6 +31,7 @@
 | Resistor 1/4W | 300K | 1 | |
 | Resistor 1/4W | 470K | 2 | |
 | Resistor 1/4W | 1M | 3 | |
+| Resistor 1/4W | 1.5M | 1 | |
 | Resistor 1/4W | 4.7M | 2 | |
 | Resistor 1/4W | 10M | 2 | |
 | Capacitor Electrolytic | 47uF | 3 | |
@@ -40,7 +41,7 @@
 | Capacitor Ceramic | 0.47uF | 1 | |
 | Capacitor Ceramic | 0.1uF | 68 | SMD (1608) |
 | Capacitor Film | 0.1uF | 1 | |
-| Capacitor Ceramic | 0.01uF | 5 | |
+| Capacitor Ceramic | 0.01uF | 6 | |
 | Capacitor Ceramic | 1000pF | 7 | |
 | Capacitor Ceramic | 220pF | 2 | |
 | Capacitor Ceramic | 100pF | 1 | |
