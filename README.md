@@ -70,9 +70,15 @@ The actual reason why no knob is labelled is an internal shuffle function, which
 Each new assignment is done in a random way, and the trigger of shuffling the knob functions is the central button.
 That trigger can also be provided by an external high signal (>1V) into the CHAOS input.
 
-It should be mentioned, that not all knobs are shuffled in that way.
+If you are tired or stuck with the sound from the module, then just push the button, as often as you like to immediately create some different sounds, until you find something interesting to continue working with that one.
+Sometimes the change might be very tiny or not recognizable at all.
+Then just try again.
+It is all about getting surprised and finding new and strange tunes.
+
+It should be mentioned, that not all knobs are getting shuffled.
 Some knobs keep their function and are not influenced by the shuffling.
 However, I decided to keep all of them unlabelled.
+You might find out some fixed points for orientation, as you play along with the module.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "Original", and a "Thonk" version. Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
