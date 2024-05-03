@@ -17,7 +17,7 @@ I divided that part on purpose, in case you might not want to know too much, so 
 
 This YouTube video shows the module in action:
 
-<img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/f641cf4a-e125-4994-ba60-6b1bafa4b1dc">
+<img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/42def195-1964-4781-99b4-90af90b23f52">
 
 ## How the Module works (Basics)
 ### The Knobs
