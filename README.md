@@ -1,7 +1,7 @@
 # GHOST IN THE MACHINE
 GHOST IN THE MACHINE is a noise/sound generating Eurorack module providing many controls, but not much control.
 It is meant to be a kind of black box for creating numerous different sounds with no specific information about how to create them.
-All the knobs and switches are not labelled on purpose in order to encourage the user to experiment.
+None of the knobs and switches are labelled on purpose in order to encourage to experiment.
 
 <img height="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/3267466e-8458-4e35-b397-e47aecb191f6">
 <img height="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/69268a0a-fc85-415c-8a68-d5b05628b578">
@@ -30,7 +30,7 @@ At the moment, I will only give two hints:
 - The lowest knob at the front panel center is controlling the level of both outputs.
 
 ### The Switches
-There are 7 switches spread accross the front panel, which are influencing the routing of the internal CV and audio signal flows.
+There are 7 switches spread across the front panel, which are influencing the routing of the internal CV and audio signal flows.
 Depending on the knob settings, changing a switch can have no, subtle or big influence on the audio outputs.
 Just like the knobs, the switches invite to experimenting.
 
@@ -43,11 +43,12 @@ On the other hand, the signals can of course also further be processed separatel
 #### FEED (left and right)
 The 2 FEED inputs provide the option to use external audio sources, instead of the internal ones.
 But the signal flow and processing for each of those inputs is not the same.
+It should also be mentioned, that using external sound sources will cut off some of the internal modulation options.
 
 #### TACT
 The TACT input provides the option to add an external clock signal to the module.
 The usage of that clock signal might be recognizable more or less, depending on the setting of some of the controls.
-If no cable is plugged in, the module is using an internal clock signal source, which can also vay, depending on the control settings.
+If no cable is plugged in, the module is using an internal clock signal source, which can also vary, depending on the control settings.
 
 #### RANDOM
 The module is using an internal random CV source in different signal flows.
@@ -56,11 +57,13 @@ The RANDOM input provides the option to use any external signal as source for th
 #### TUNE
 The TUNE input can be used to send a pitch signal to one of the internal audio sources.
 The internal audio sources do not strictly follow the 1volt/octave standard, and the module is not meant to output any harmonic melody.
-But if required, this input can be used for attempts to get some melody out of the module.
-However, it cannot be guaranteed that the result is as desired.
+But if desired, this input can be used for attempts to somehow influence the pitch of the module.
+However, it cannot be guaranteed that the result is as expected.
 
 #### SWEEP
 The SWEEP input can be used for an external CV signal to influence the cutoff of the internal filter section of the module.
+The module does not contain any envelope generator,
+The SWEEP input is great for e.g. creating interesting pluck sounds by sending CV from an ADSR.
 
 ### The central Push Button and the CHAOS Input
 The actual reason why no knob is labelled is an internal shuffle function, which allows a change of the assignment of several knobs to different control functions.
@@ -82,7 +85,7 @@ However, since most DIY projects for Eurorack modules out there are using potent
 
 The main PCB is the same for both versions.
 
-<img width="500" alt="MainPCB" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/b58380e9-6774-411c-816d-efc6c38ffd27">
+<img width="500" alt="MainPCB" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/ab8fdce9-3cb4-45f9-8dd7-f834f66ccfb3">
 
 I created the Gerber files with the online tool EasyEDA and ordered the PCBs at JLCPCB.
 
