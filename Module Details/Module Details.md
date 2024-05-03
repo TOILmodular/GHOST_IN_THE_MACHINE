@@ -15,7 +15,7 @@ The module consists of a number of different sections for creating and modulatin
 ## Signal Flow Chart
 The following graph shows the signal flow chart for audio and CV between the different module sections.
 
-<img width="500" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/2c9872de-066e-4f44-a3c1-7a8c8fcf474d">
+<img width="600" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/2c9872de-066e-4f44-a3c1-7a8c8fcf474d">
 
 The signal of one of the VCOs is sent to the VCF, while the other one is influencing the cutoff frequency.
 Pitching the two VCOs in a certain way can even lead to vowel sounds, like when using a formant filter.
@@ -23,7 +23,7 @@ The signal is then sent via 2 separate delay units to the outputs.
 
 There are a number of modulation options via the LFOs, which combine their triangle signals, a S&H unit fed by a noise unit or optionally by an external source, and the other optional external inputs, explained in the module introduction README file.
 
-XXXXXXXXX graph tbd XXXXXXXXXXX
+<img width="600" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/c3ed3ab8-df07-4aa6-83b9-92007e638b6a">
 
 ## Fixed and Variable Knobs
 One central aspect of the module to be more experimental and less controllable is the function of knob assignment shuffling.
@@ -40,25 +40,25 @@ Even that restriction already led to the need of 8 multiplexer ICs (CD4052), as 
 I guess, there is a more clever way to achieve that.
 Anyway, this is what I could come up with.
 
-The functions in group 1 are
-- (1) An attenuator for the noise or external RANDOM source fed into the S&H section 
-- (2) The frequency control for the VCO going into the VCF cutoff frequency control
-- (3) The frequency rate of one of the 2 LFOs
-- (4) The feedback control of one of the 2 delay units
+The functions in group 1 (red) are
+- An attenuator for the noise or external RANDOM source fed into the S&H section 
+- The frequency control for the VCO going into the VCF cutoff frequency control
+- The frequency rate of one of the 2 LFOs
+- The feedback control of one of the 2 delay units
 
-The functions in group 2 are
-- (5) An attenuator for the combined triangle signal of both LFOs
-- (6) The frequency control for the VCO going into the VCF input
-- (7) The frequency rate of the second LFO
-- (8) The feedback control of the second delay unit
+The functions in group 2 (yellow) are
+- An attenuator for the combined triangle signal of both LFOs
+- The frequency control for the VCO going into the VCF input
+- The frequency rate of the second LFO
+- The feedback control of the second delay unit
 
 The fixed knobs are
-- (9) The VCF cutoff frequency control
-- (10) The VCF resonance control
-- (11, 12) The glide controls for 2 identical separate CV outputs from the S&H unit
-- (13, 14) The delay times for both delay units
-- (15, 16) The wet/dry mix controls for both delay units
-- (17) An attenuator for the VCF output signal before the delay units, which can be used as a kind of one volume control for both outputs. However, this will not necessarily always reduce the volume to zero, as it is located before the delay units, so that existing echoes and feedback signals might continue.
+- (1) The VCF cutoff frequency control
+- (2) The VCF resonance control
+- (3, 4) The glide controls for 2 identical separate CV outputs from the S&H unit
+- (5, 6) The delay times for both delay units
+- (7, 8) The wet/dry mix controls for both delay units
+- (9) An attenuator for the VCF output signal before the delay units, which can be used as a kind of one volume control for both outputs. However, this will not necessarily always reduce the volume to zero, as it is located before the delay units, so that existing echoes and feedback signals might continue.
 
 ## Knob Assignment Shuffle Logic
 As mentioned above, the shuffle logic core consists of 8 CD4052 multiplexer ICs.
