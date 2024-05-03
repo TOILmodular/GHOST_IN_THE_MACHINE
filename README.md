@@ -62,7 +62,7 @@ However, it cannot be guaranteed that the result is as expected.
 
 #### SWEEP
 The SWEEP input can be used for an external CV signal to influence the cutoff of the internal filter section of the module.
-The module does not contain any envelope generator,
+The module does not contain any envelope generator.
 The SWEEP input is great for e.g. creating interesting pluck sounds by sending CV from an ADSR.
 
 ### The central Push Button and the CHAOS Input
