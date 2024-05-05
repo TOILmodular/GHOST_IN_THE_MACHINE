@@ -15,7 +15,7 @@ The module consists of a number of different sections for creating and modulatin
 ## Signal Flow Chart
 The following graph shows the signal flow chart for audio and CV between the different module sections.
 
-<img width="600" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/2c9872de-066e-4f44-a3c1-7a8c8fcf474d">
+<img width="600" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/9511eccd-bc2f-4922-a028-7109ff16599c">
 
 The signal of one of the VCOs is sent to the VCF, while the other one is influencing the cutoff frequency.
 Pitching the two VCOs in a certain way can even lead to vowel sounds, like when using a formant filter.
