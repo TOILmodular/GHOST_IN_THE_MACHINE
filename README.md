@@ -108,3 +108,15 @@ The module build is mainly THT, including all ICs.
 However, there are a number SMD capacitors with the package size 1608 (imperial 0603), several transistors (package SOT-23-3) and a voltage regulator (package SOT-89-3).
 
 Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine. Footprints for a few resistors with values larger than 1M have the standard size.
+
+<img width="432" alt="LFO Caps" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/bb9ccacb-d89d-4794-9aa7-bef4f79a8560">
+
+The rates of the 2 internal LFOs can be changed to some degree via two 100K potentiometers.
+But the main range of the rate is determined by a capacitor for each of the LFOs.
+The location of those caps is given on the control PCB with the label "CAP FOR LFO RATE" (see picture above).
+
+The values for those caps are not specified in the BOM and can be selected, depending on the desired oscillation range.
+I prefer slow movements, so I used 47uF caps for both LFOs (check the YouTube video linked above for hearing the result).
+If you choose a small value around 1000pF, the rate will be in the audio range.
+You can try out any vallue and check if the modulation is as you like it.
+The values do not have to be the same.
