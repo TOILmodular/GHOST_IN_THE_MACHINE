@@ -46,7 +46,7 @@
 | Capacitor Ceramic | 100pF | 1 | |
 | Capacitor Ceramic | 22pF | 1 | |
 | Capacitor Ceramic | 10pF | 3 | |
-| Capacitor Ceramic | selectable | 2 | see section "Additional Information about specific Components" |
+| Capacitor Ceramic | selectable | 2 | see section "Additional Information about specific Components" of the ReadMe file |
 | Diode | 1N4148 | 6 | |
 | Transistor | MMBT3904 | 2 | SMD (SOT-23-3) |
 | Transistor | MMBT3906 | 2 | SMD (SOT-23-3) |
