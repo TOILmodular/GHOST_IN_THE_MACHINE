@@ -120,3 +120,7 @@ I prefer slow movements, so I used 47uF caps for both LFOs (check the YouTube vi
 If you choose a small value around 1000pF, the rate will be in the audio range.
 You can try out any vallue and check if the modulation is as you like it.
 The values do not have to be the same.
+
+One electrolytic capacitor on the control board (47uF) is located very close to the edge of the main board on top of the control board. Due to that, the capacitor cannot be mounted in the usual standing position. Instead, bend the legs and mount it in a horizontal way, as shown in the picture below. The rectangle on the PCB shows the position of the horizontal capacitor.
+
+<img width="432" src="https://github.com/TOILmodular/GHOST_IN_THE_MACHINE/assets/97026614/57125876-ce0b-4a9b-8371-872ae6278f89">
