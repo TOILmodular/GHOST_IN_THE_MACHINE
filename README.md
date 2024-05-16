@@ -1,3 +1,9 @@
+# PLEASE NOTE
+I found some issues with this module concerning some central function.
+I will need some time to figure out the problem and fix it.
+I suggest NOT to build this module yet, if you intend to, until I figured this out.
+My apologies for the trouble and the delay!
+
 # GHOST IN THE MACHINE
 GHOST IN THE MACHINE is a noise/sound generating Eurorack module providing many controls, but not much control.
 It is meant to be a kind of black box for creating numerous different sounds with no specific information about how to create them.
