@@ -79,7 +79,7 @@ In order to ensure the simultaneous shuffling of all knobs in one group, all mul
 
 Triggering a shuffle event is done either via the central push button, or with a high signal (>1V) sent into the CHAOS input.
 That trigger is sent to the shift register clock input.
-So keeping the button pressed or keeping the CHAOS input high does not cause a permanent shuffling, but trigers the process only once.
+So keeping the button pressed or keeping the CHAOS input high does not cause a permanent shuffling, but triggers the process only once.
 Re-shuffling requires another separate trigger pulse.
 
 ## Switch Functions
