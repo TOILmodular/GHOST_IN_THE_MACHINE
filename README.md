@@ -105,7 +105,7 @@ You can use the panel Gerber file to have the panel built out of PCB material.
 
 ## Additional Information about specific Components
 The module build is mainly THT, including all ICs.
-However, there are a number SMD capacitors with the package size 1608 (imperial 0603), several transistors (package SOT-23-3) and a voltage regulator (package SOT-89-3).
+However, there are a number of SMD capacitors with the package size 1608 (imperial 0603), several transistors (package SOT-23-3) and a voltage regulator (package SOT-89-3).
 
 Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine. Footprints for a few resistors with values larger than 1M have the standard size.
 
