@@ -1,4 +1,11 @@
 # GHOST IN THE MACHINE
+### !!!CAUTION!!!
+Versions of the control board older than Rev3.0 contain a design error, which causes the CD4052 ICs to heat up.
+This can even lead to them being damaged.
+Please make sure that your control PCB is showing Rev3.0 printed on it.
+The main PCB is not affected by that error, so that older versions are working fine.
+The error has been fixed and the Gerber files have been corrected by 2025/02/05.
+
 GHOST IN THE MACHINE is a noise/sound generating Eurorack module providing many controls, but not much control.
 It is meant to be a kind of black box for creating numerous different sounds with no specific information about how to create them.
 None of the knobs and switches are labelled on purpose in order to encourage to experiment.
