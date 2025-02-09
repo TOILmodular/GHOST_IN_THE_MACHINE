@@ -1,13 +1,4 @@
 # GHOST IN THE MACHINE
-### !!!UNDER CONSTRUCTION!!!
-This repository needs a revision, because the recent issue identified caused another problem, which I have to check further.
-Until then, you should currently NOT USE the repository to build this module.
-
-Sorry for all the trouble.
-I will fix this as soon as possible and update the info here.
-
-Status as of Feb 9, 2025
-
 ### !!!CAUTION!!!
 Versions of the control board older than Rev3.0 contain a design error, which causes the CD4052 ICs to heat up.
 This can even lead to them being damaged.
